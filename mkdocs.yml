@@ -1,0 +1,80 @@
+# Site infos
+site_name: 'PHP Telegram Bot Documentation'
+# site_author: 'Maxiride'
+# site_description: 'A pure PHP Telegram Bot, fully extensible via plugins.'
+# site_url: 'https://maxiride.github.io/php-telegram-bot-docs/'
+#
+# # Repo infos
+# repo_name: 'PHP Telegram Bot'
+# repo_url: 'https://github.com/php-telegram-bot'
+
+pages:
+  - Home: index.md
+
+  - Let's Play!:
+    - Introduction: start/start_introduction.md
+    - Environment: start/environment/env_introduction.md
+      # - Vagrant setup
+      # - Composer
+      # - MySQL setup
+      # - Git clone
+      
+    - Registering your bot: start/botfather.md
+    - First steps with the code: start/firstSteps.md
+
+  - Core: core/core_introduction.md
+
+
+
+  - About: about.md
+  - Contributing guidelines: guidelines.md
+  - Code Playground: codePlayground.md
+
+
+# Theme and its options
+#https://squidfunk.github.io/mkdocs-material/
+theme: 'material'
+extra:
+  palette:
+    primary: 'blue'
+    accent: 'cyan'
+
+
+# Google Analytics
+google_analytics:
+  - 'UA-106417780-1'
+  - 'auto'
+
+# Extensions with reference url
+markdown_extensions:
+    - smarty
+
+    - admonition
+
+    #https://pythonhosted.org/Markdown/extensions/abbreviations.html
+    - abbr
+
+    #https://pythonhosted.org/Markdown/extensions/definition_lists.html
+    - def_list
+
+    #https://pythonhosted.org/Markdown/extensions/footnotes.html
+    - footnotes
+
+
+    #https://facelessuser.github.io/pymdown-extensions/
+    - pymdownx.emoji:
+        emoji_generator: !!python/name:pymdownx.emoji.to_png
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.caret
+    - pymdownx.mark
+    - pymdownx.escapeall
+    - pymdownx.snippets:
+        base_path: 'extra'
+    - pymdownx.highlight:
+        css_class: codehilite
+        extend_pygments_lang:
+          - name: php
+            lang: php
+            options:
+              startinline: true
