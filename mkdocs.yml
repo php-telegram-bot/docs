@@ -13,8 +13,8 @@ pages:
 
   - Let's Play!:
     - Introduction: start/start_introduction.md
-    - Environment: start/environment/env_introduction.md
-      # - Vagrant setup
+    - Environment:
+      - Vagrant setup: start/environment/vagrant.md
       # - Composer
       # - MySQL setup
       # - Git clone
