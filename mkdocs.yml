@@ -1,12 +1,12 @@
 # Site infos
 site_name: 'PHP Telegram Bot Documentation'
-# site_author: 'Maxiride'
-# site_description: 'A pure PHP Telegram Bot, fully extensible via plugins.'
-# site_url: 'https://maxiride.github.io/php-telegram-bot-docs/'
-#
-# # Repo infos
-# repo_name: 'PHP Telegram Bot'
-# repo_url: 'https://github.com/php-telegram-bot'
+site_description: 'A pure PHP Telegram Bot, fully extensible via plugins.'
+# site_url: the .io/docs url of the gh-pages
+copyright: 'MIT License'
+
+# Repo infos
+repo_name: 'PHP Telegram Bot'
+repo_url: 'https://github.com/php-telegram-bot'
 
 pages:
   - Home: index.md
@@ -18,7 +18,7 @@ pages:
       # - Composer
       # - MySQL setup
       # - Git clone
-      
+
     - Registering your bot: start/botfather.md
     - First steps with the code: start/firstSteps.md
 

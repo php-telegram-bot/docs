@@ -13,7 +13,7 @@ At the end of the guide it will be up to your creativity to actually build a bot
 
 
 !!! tip
-    You can safely skip to the advanced [Core](Core/introduction.md) section if you already know how to:
+    You can safely skip to the advanced [Core](../Core/introduction.md) section if you already know how to:
 
     * setup and use vagrant
     * use git
