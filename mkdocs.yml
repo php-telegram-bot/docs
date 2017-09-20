@@ -13,12 +13,7 @@ pages:
 
   - Let's Play!:
     - Introduction: start/start_introduction.md
-    - Environment:
-      - Vagrant setup: start/environment/vagrant.md
-      # - Composer
-      # - MySQL setup
-      # - Git clone
-
+    - Environment: start/environment.md
     - Registering your bot: start/botfather.md
     - First steps with the code: start/firstSteps.md
 
@@ -28,7 +23,7 @@ pages:
 
   - About: about.md
   - Contributing guidelines: guidelines.md
-  - Code Playground: codePlayground.md
+  - Code Playground: 'code Playground.md'
 
 
 # Theme and its options
