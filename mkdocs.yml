@@ -64,13 +64,16 @@ markdown_extensions:
     #https://facelessuser.github.io/pymdown-extensions/
     - pymdownx.emoji:
         emoji_generator: !!python/name:pymdownx.emoji.to_png
+
     - pymdownx.details
     - pymdownx.superfences
     - pymdownx.caret
     - pymdownx.mark
     - pymdownx.escapeall
+
     - pymdownx.snippets:
         base_path: 'extra'
+
     - pymdownx.highlight:
         css_class: codehilite
         extend_pygments_lang:
@@ -78,3 +81,5 @@ markdown_extensions:
             lang: php
             options:
               startinline: true
+          - name: shell
+            lang: console

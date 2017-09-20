@@ -8,7 +8,7 @@
 ??? quote "details quote from pymdownx"
     some more quote
 
-    
+
 << The >> HTML "specification"
 is maintained by the W3C.
 

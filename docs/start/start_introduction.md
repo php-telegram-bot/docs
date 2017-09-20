@@ -2,13 +2,16 @@
 
 ## Scope of the "Let's Play"
 
-All the chapters in the "Let's Play"[^1] part of the guide are meant for the most newbies to the subject of botting. Here we will cover basics like setting up a local development environment through the use of **Vagrant[^2]**, how to use **Composer**[^3] to download, install and update the framework through time, how the [Telegram APIs][api][^4] work and eventually we will learn how to write code for few commands.
+All the chapters in the "Let's Play"[^1] part of the guide are meant for the most newbies to the subject of botting. Here we will cover basics like setting up a local development environment through the use of **Vagrant**[^2], how to use **Composer**[^3] to download, install and update the framework through time, how the **[Telegram APIs][api]**[^4] works and eventually we will learn how to write code for few commands.
 
 At the end of the guide it will be up to your creativity to actually build a bot that suit your needs :v:
 
 
 !!! info
     We will be using the [`example-bot`][example-bot] as a base reference thanks to its completeness and "plug-n-play" approach — kinda, but don't be afraid :wink:.
+
+!!! warning
+    Many times we will refer to a `∼Projects` folder that can be anywhere on your computer, this directory is where all the development will happen.
 
 
 
