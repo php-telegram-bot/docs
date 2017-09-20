@@ -1,0 +1,10 @@
+dl:not(.docutils) dt {
+    display: inline-block;
+    font-size: 100%;
+    line-height: normal;
+    background: #e7f2fa;
+    color: #2980B9;
+    border-top: solid 3px #6ab0de;
+    padding: 6px;
+    position: relative;
+  }

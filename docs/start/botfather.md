@@ -37,6 +37,7 @@ Open a chat with [@Botfather][botfather], then use the `/newbot` command to comm
 
     ??? info "Set the group privacy"
         Default: `ENABLED`
+        
         Use the `/setprivacy` command to commence the procedure, you will be asked to choose the bot for which you want to modify the privacy then you can choose `DISABLE`.
 
 !!! warning

@@ -1,43 +1,5 @@
 # First steps with the "plug-n-play" example-bot
 
-## Grab a copy of the example-bot
-
-If you know your way around `git` you can clone the master repository to your _local development environment_:
-
-```
-$ git clone https://github.com/php-telegram-bot/example-bot.git
-```
-
-If you don't know\don't want to use `git` you can download it as a `.zip` and then extract it in your Project folder:
-
-* either via direct [download](https://github.com/php-telegram-bot/example-bot/archive/master.zip)
-* or via `curl`:
-
-```
-$ curl -o example-bot.zip https://github.com/php-telegram-bot/example-bot/archive/master.zip
-```
-
-!!! summary "Your directory will now look like this"
-    ```
-    .
-    ├── Commands
-    ├── composer.json
-    ├── cron.php
-    ├── getUpdatesCLI.php
-    ├── hook.php
-    ├── LICENSE
-    ├── manager.php
-    ├── README.md
-    ├── set.php
-    └── unset.php
-
-    1 directory, 10 files
-    ```
-
-
-**We can now get our hands dirty with few real coding parts!**
-
-
 ## Configuring the bot with your credentials
 
 
@@ -47,13 +9,13 @@ $ curl -o example-bot.zip https://github.com/php-telegram-bot/example-bot/archiv
     We will first go through the _getUpdates_ method for developing locally and then we will switch to the _Webhook_ — yes it will be as easy as flipping a switch.
 
 
-## :point_right: getUpdatesCLI installation
+### :point_right: getUpdatesCLI setup
 
 !!! info
-    This configuration is suggested for a _local development environment_ as it is **way easier** to setup and yet very effective. When switching to a _remote host_ the Webhook performs better, at that a proper time the method will be explained and implemented.
+    This configuration is the suggested one for a _local development environment_ as it is **way easier** to setup and yet very effective. When switching to a _remote host_ the Webhook performs better, at a proper time the method will be explained and implemented.
 
 
-Open your `getUpdatesCLI.php` with any text editor and modify these lines with your bot credentials:
+Open your `getUpdatesCLI.php` with any text editor[^1] and modify these lines with your bot credentials:
 
 ```php linenums="15"
 // Add you bot's API key and name
@@ -65,15 +27,16 @@ $bot_username = 'username_bot';
 
 Now head to the very end of the file and add:
 
- `sleep(3); // Make the script sleep for three seconds`
+```php linenums="90"
+ sleep(3); // Makes the script sleep for three seconds, let it chill
+```
+
+The `example-bot` is almost ready to be tested, we just need to
 
 
 
 
-
-
-
- Here we go, the `example-bot` is now ready to be fired up! :fire:
+Here we go, the `example-bot` is now ready to be fired up! :fire:
 
 
 ### Testing the example-bot
@@ -98,3 +61,8 @@ Now head to the very end of the file and add:
     Skip to [Configure getUpdatesCLI.php](#configure-getupdatescli)
 
  The bare minimum setup for `manager.php` is the following, where you need to replace the `'api_key'`, `'bot_username'`, `'secret'` and `'webhook'` values with your own.
+
+
+
+
+ [^1]: It **must** support the UTF-8 encoding, if you don't know what I'm talking about chances are your good with your editor since it's the default 99% of the time.

@@ -1,12 +1,3 @@
-<!--
-..:: USAGE NOTES ::..
-
-This file will contain all the most used links to be used by the common reference notation [link][link-ref], it must be included in every documentation page using the Markdown syntax:
-
---8<-- 'linkIndex.md'
-
- -->
-
 
 <!-- Internal references -->
 

@@ -34,6 +34,9 @@ extra:
     primary: 'blue'
     accent: 'cyan'
 
+extra_css:
+  - 'stylesheets/extraCSS.css'
+
 
 # Google Analytics
 google_analytics:
