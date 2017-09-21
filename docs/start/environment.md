@@ -9,17 +9,22 @@
     : A package manager which takes care that the framework is kept up-to-date with all its requirements. In this _Let's Play_ part of the guide you won't see it in action since we built-in the `Vagrantfile` the `composer` commands to set up the [`example-bot`][example-bot] during the first boot.
 
     **Git**
-    : A **V**ersion **C**ontrol **S**oftware (VCS), its full usage is beyond the scope of this Documentation at the of its writing. We will just cover few _basic_ commands where needed.
+    : A **V**ersion **C**ontrol **S**oftware (VCS), its full usage is beyond the scope of this Documentation at the time of its writing. We will just cover few _basic_ commands where needed.
 
 
 
 ## Initialization of the environment
 
-Head to the [download](https://www.vagrantup.com/downloads.html) page to grab and install the appropriate version for your Operating System.
+### :point_right: Vagrant Install
+Head to the [download](https://www.vagrantup.com/downloads.html) page to grab and install the appropriate version of Vagrant for your Operating System.
 
-Vagrant needs a file named `Vagrantfile` that containes all the settings to prepare the virtual machine that we will be using, luckily enough we prepared a custom one for you to suit our needs. [Download][vagrantfile] it and save it into the `∼Projects` folder.
+Vagrant needs a file named `Vagrantfile` that contains all the settings to prepare the virtual machine that we will be using, luckily enough we prepared a custom one for you to suit the framework needs.
 
-Now we need to boot up the virtual achine, open a shell and head to the `∼Projects` folder where you saved your `Vagrantfile` to initialize your Vagrant machine:
+### :point_right: Download the example-bot
+Download and unzip the [`example-bot`][example-bot] into your `∼Projects` folder.
+
+### :point_right: First Virtual Machine boot
+Now we need to boot up the virtual machine, open a shell and head to the `∼Projects` folder where you saved your `Vagrantfile` to initialize your Vagrant machine:
 
 ```shell
 $ vagrant up
@@ -30,11 +35,10 @@ $ vagrant up
 
     * Download a mini version of Ubuntu 16.04 LTS
     * Install all the dependencies needed by the `php-telegram-bot` framework
-    * Download (`git clone`) the repository [`example-bot`][example-bot] to the virtual machine
     * Initialize the framework through `composer install`
 
 
-Once Vagrant finish the boot up process you can login into the virtual machine by:
+Once Vagrant finish the boot up process you can login into the virtual machine with:
 
 
 ```shell
@@ -44,7 +48,7 @@ $ vagrant ssh
 
 !!! success "If everything went as expected..."
 
-     you will now have the [`example-bot`][example-bot] in your main directory and everything is ready to be configured for actual usage.
+     you will now have the `example-bot` in your main directory as in the example below and everything is ready to be configured for actual usage.
 
     ```shell
     vagrant@vagrant:~$ tree -L 2
