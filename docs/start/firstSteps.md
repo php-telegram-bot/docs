@@ -31,17 +31,22 @@ Now head to the very end of the file and add:
  sleep(3); // Makes the script sleep for three seconds, let it chill
 ```
 
-The `example-bot` is almost ready to be tested, we just need to
-
-
-
-
 Here we go, the `example-bot` is now ready to be fired up! :fire:
 
 
-### Testing the example-bot
+### Preliminary testing of the example-bot
 
- So far so good,
+ So far so good, in a shell execute the following command:
+
+```shell
+ $ while true; do ./getUpdatesCLI.php; done
+```
+
+If everything has been set up right the bot is now running in your virtual machine, open a Telegram chat with it and try the basic command `/whoami`, the bot should answer with your profile picture, id and other infos.
+
+!!! summary "What have we done so far and getUpdatesCLI.php breakdown"
+    
+
 
  ---
 
@@ -65,4 +70,4 @@ Here we go, the `example-bot` is now ready to be fired up! :fire:
 
 
 
- [^1]: It **must** support the UTF-8 encoding, if you don't know what I'm talking about chances are your good with your editor since it's the default 99% of the time.
+ [^1]: It **must** support the UTF-8 encoding, if you don't know what I'm talking about chances are you are good with your editor since it's the default 99% of the time.

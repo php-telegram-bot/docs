@@ -12,9 +12,9 @@ pages:
   - Home: index.md
 
   - Let's Play!:
-    - Introduction: start/start_introduction.md
+    - Introduction: start/introduction.md
     - Environment: start/environment.md
-    - Registering your bot: start/botfather.md
+    - Registering your bot: start/registering.md
     - First steps with the code: start/firstSteps.md
 
   - Core: core/core_introduction.md
