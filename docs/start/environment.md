@@ -24,7 +24,7 @@ Vagrant needs a file named `Vagrantfile` that contains all the settings to prepa
 Download and unzip the [`example-bot`][example-bot] into your `∼Projects` folder.
 
 ### :point_right: First Virtual Machine boot
-Now we need to boot up the virtual machine, open a shell and head to the `∼Projects` folder where you saved your `Vagrantfile` to initialize your Vagrant machine:
+Now we need to boot up the virtual machine, open a shell and head to the `∼Projects` folder where you saved your `Vagrantfile` to initialize your Vagrant machine with:
 
 ```shell
 $ vagrant up
@@ -36,6 +36,7 @@ $ vagrant up
     * Download a mini version of Ubuntu 16.04 LTS
     * Install all the dependencies needed by the `php-telegram-bot` framework
     * Initialize the framework through `composer install`
+    * Set up a basic MySQL database with mandatory pre-prepared tables for the framework usage.
 
 
 Once Vagrant finish the boot up process you can login into the virtual machine with:
@@ -48,7 +49,7 @@ $ vagrant ssh
 
 !!! success "If everything went as expected..."
 
-     you will now have the `example-bot` in your main directory as in the example below and everything is ready to be configured for actual usage.
+     ...you will now have the `example-bot` in your main directory as in the example below and everything is ready to be configured for actual usage.
 
     ```shell
     vagrant@vagrant:~$ tree -L 2

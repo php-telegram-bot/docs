@@ -43,6 +43,7 @@ Every change you will make to the files will be instantly reflected to the live 
 - Approve a proper TOC
     - Set up TOC
     - Start writing
+    - Add an example screenshot of the /whoami command in the firstSteps
 
 ###### **For** the Documentation
 - So far, so good
