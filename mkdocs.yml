@@ -5,8 +5,9 @@ site_description: 'A pure PHP Telegram Bot, fully extensible via plugins.'
 copyright: 'MIT License'
 
 # Repo infos
-repo_name: 'PHP Telegram Bot Docs'
-repo_url: 'https://github.com/php-telegram-bot/docs'
+repo_name: 'PHP Telegram Bot'
+repo_url: 'https://github.com/php-telegram-bot/core'
+edit_uri: 'https://github.com/php-telegram-bot/docs/edit/develop/docs'
 
 pages:
   - Home: index.md
