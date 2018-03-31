@@ -5,8 +5,8 @@ site_description: 'A pure PHP Telegram Bot, fully extensible via plugins.'
 copyright: 'MIT License'
 
 # Repo infos
-repo_name: 'PHP Telegram Bot'
-repo_url: 'https://github.com/php-telegram-bot'
+repo_name: 'PHP Telegram Bot Docs'
+repo_url: 'https://github.com/php-telegram-bot/docs'
 
 pages:
   - Home: index.md
@@ -15,15 +15,14 @@ pages:
     - Introduction: start/introduction.md
     - Environment: start/environment.md
     - Registering your bot: start/registering.md
-    - First steps with the code: start/firstSteps.md
+    - First steps with the code: start/first-steps.md
 
-  - Core: core/core_introduction.md
-
-
+  - Core:
+    - Introduction: core/introduction.md
 
   - About: about.md
   - Contributing guidelines: guidelines.md
-  - Code Playground: 'code Playground.md'
+  - Code playground: code-playground.md
 
 
 # Theme and its options
@@ -35,18 +34,11 @@ extra:
     accent: 'cyan'
 
 extra_css:
-  - 'stylesheets/extraCSS.css'
-
-
-# Google Analytics
-google_analytics:
-  - 'UA-106417780-1'
-  - 'auto'
+  - stylesheets/extra.css
 
 # Extensions with reference url
 markdown_extensions:
     - smarty
-
     - admonition
 
     #https://pythonhosted.org/Markdown/extensions/abbreviations.html
@@ -57,7 +49,6 @@ markdown_extensions:
 
     #https://pythonhosted.org/Markdown/extensions/footnotes.html
     - footnotes
-
 
     #https://facelessuser.github.io/pymdown-extensions/
     - pymdownx.emoji:
