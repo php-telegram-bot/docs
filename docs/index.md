@@ -1,6 +1,6 @@
 # Welcome to the PHP Telegram Bot Documentation
 <p align="center">
-==^^This is a pure PHP Telegram Bot, fully extensible via plugins.^^==
+<b>==^^This is a pure PHP Telegram Bot, fully extensible via plugins.^^==</b>
 </p>
 
 Telegram announced official support for a Bot API in 2015 allowing integrators of all sorts to bring automated interactions to the mobile platform. This framework aims to provide a platform where one can simply write a plugin and have interactions in a matter of minutes.
@@ -8,7 +8,7 @@ Telegram announced official support for a Bot API in 2015 allowing integrators o
 The framework can:
 
 * retrieve updates with webhook and getUpdates methods.
-* supports all types and methods according to Telegram API (25 May 2016).
+* supports all types and methods according to [Telegram API 3.6 (13. February 2018)](https://core.telegram.org/bots/api#february-13-2018).
 * supports supergroups.
 * handle commands in chat with other bots.
 * manage Channel from the bot admin interface.
